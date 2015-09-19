@@ -4,9 +4,11 @@
 
 ### platform support
 
-- Windows **tested**
-- OSX *untested*
-- linux *accepting PR*
+| Platform | Status |
+|----------|--------|
+| Windows  | Tested |
+| OSX      | Untested |
+| Linux    | Unsupported - accepting PR |
 
 # example
 
@@ -30,7 +32,7 @@ cp.exec(command, function (err, stdout) {
 var soxPath = require('sox-bin')
 ```
 
-`soxPath` is a string of the path to the SoX binary
+`soxPath` is a string of the path to the SoX binary. On my machine it is `C:\Users\Michael\Github\sox-bin\vendor\windows\sox.exe`
 
 # license
 
