@@ -1,0 +1,25 @@
+{
+  "name": "sox-bin",
+  "version": "",
+  "description": "Get SoX as a binary",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtskydJ/sox-bin.git"
+  },
+  "keywords": [
+    "sox",
+    "bin",
+    "binary",
+    "process"
+  ],
+  "author": "",
+  "license": "VOL",
+  "bugs": {
+    "url": "https://github.com/ArtskydJ/sox-bin/issues"
+  },
+  "homepage": "https://github.com/ArtskydJ/sox-bin#readme"
+}
