@@ -2,15 +2,12 @@
 
 > Get [SoX](http://sox.sourceforge.net/) as a binary
 
-Returns a path to SoX 14.4.2.
-
-### platform support
-
-| Platform | Status |
-|----------|--------|
-| Windows  | Tested |
-| OSX      | Untested |
-| Linux    | Unsupported - Accepting PR |
+| Platform | SoX Version | Status   |
+|----------|-------------|----------|
+| Windows  | 14.4.2      | Tested   |
+| OSX      | 14.4.2      | Tested   |
+| FreeBSD  | 14.4.1-5    | Untested |
+| Linux    | 14.4.1-5    | Untested |
 
 # example
 
