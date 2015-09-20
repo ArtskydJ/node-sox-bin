@@ -2,12 +2,12 @@
 
 > Get [SoX](http://sox.sourceforge.net/) as a binary
 
-| Platform | SoX Version | Status   |
-|----------|-------------|----------|
-| Windows  | 14.4.2      | Tested   |
-| OSX      | 14.4.2      | Tested   |
-| FreeBSD  | 14.4.1-5    | Untested |
-| Linux    | 14.4.1-5    | Untested |
+| Platform | SoX Version | Status     |
+|----------|-------------|------------|
+| Windows  | 14.4.2      | Tests pass |
+| OSX      | 14.4.2      | Tests pass |
+| FreeBSD  | 14.4.1-5    | Untested   |
+| Linux    | 14.4.1-5    | [![Build Status](https://travis-ci.org/ArtskydJ/sox-bin.svg?branch=master)](https://travis-ci.org/ArtskydJ/sox-bin) |
 
 # example
 
