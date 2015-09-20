@@ -6,7 +6,7 @@ module.exports = {
 	freebsd_ia32: __dirname + '/vendor/freebsd/i386/sox',
 	freebsd_x64: __dirname + '/vendor/freebsd/amd64/sox',
 	linux_ia32: __dirname + '/vendor/fedora/i686/sox',
-	linux_x64: __dirname + '/vendor/fedora/x86_64/sox'
+	linux_x64: __dirname + '/vendor/fedora/x86_64/bin/sox'
 }[process.platform + '_' + process.arch]
 
 if (!module.exports) throw new Error(process.platform + ' ' + process.arch + ' is not supported. Please make a pull request.')
