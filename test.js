@@ -1,14 +1,21 @@
+var test = require('tape')
 var soxPath = require('./index.js')
 var cp = require('child_process')
 
-if (!/vendor.+sox/.test(soxPath)) throw new Error('unexpected soxPath')
+test('returned file path', function (t) {
+	t.equal(typeof soxPath, 'string')
+	t.ok(/vendor.+sox/.test(soxPath), 'found "vendor" and "sox" in the path')
+	t.notEqual(soxPath[0], '.', 'path is not relative')
+	t.end()
+})
 
-cp.exec(soxPath + ' --version', function (err, stdout, stderr) {
-	if (err) {
-		throw err
-	} else if (stderr.length) {
-		throw new Error('stderr: ' + stderr)
-	} else if (!stdout.length) {
-		throw new Error('no stdout')
-	}
+test('sox executable works', function (t) {
+	cp.exec(soxPath + ' --version', function (err, stdout, stderr) {
+		t.notOk(err, err ? err.message : 'no error')
+
+		t.ok(stdout.length, 'something returned on stdout')
+		t.notOk(stderr.length, 'nothing returned on stderr')
+		t.ok(/sox/i.test(stdout.toString()), 'the string "sox" is found in stdout')
+		t.end()
+	})
 })
