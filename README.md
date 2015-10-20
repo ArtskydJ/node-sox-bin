@@ -5,7 +5,7 @@
 | Platform | SoX Version | Status     |
 |----------|-------------|------------|
 | Windows  | 14.4.2      | [![Build status](https://ci.appveyor.com/api/projects/status/dyg7v0yv1jyvmcmr/branch/master?svg=true)](https://ci.appveyor.com/project/ArtskydJ/sox-bin/branch/master) |
-| OSX      | 14.4.2      | Tests pass |
+| OSX      | 14.4.2      | [![Build Status](https://travis-ci.org/ArtskydJ/sox-bin.svg?branch=travisosx)](https://travis-ci.org/ArtskydJ/sox-bin) |
 | FreeBSD  | 14.4.1-5    | Untested   |
 | Linux    | 14.4.1-5    | [![Build Status](https://travis-ci.org/ArtskydJ/sox-bin.svg?branch=master)](https://travis-ci.org/ArtskydJ/sox-bin) |
 
