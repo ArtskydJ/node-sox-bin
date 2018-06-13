@@ -4,6 +4,7 @@
   "description": "Get SoX as a binary",
   "main": "index.js",
   "scripts": {
+    "install": "node install.js",
     "test": "node test.js"
   },
   "repository": {
