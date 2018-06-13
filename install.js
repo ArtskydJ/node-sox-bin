@@ -2,12 +2,14 @@ var fs = require('fs')
 var os = require('os')
 var soxBinPath = require('./index.js')
 
-if (os.platform() === 'darwin') {
+if (os.platform() !== 'win32') {
 	fs.stat(soxBinPath, function (err, stats) {
 		if (err) throw err
 
-		fs.chmod(soxBinPath, stats.mode | 0o111, function (err) {
-			if (err) throw err	
+		var modeWithExecutePermissions = stats.mode | parseInt('111', 8)
+		
+		fs.chmod(soxBinPath, modeWithExecutePermissions, function (err) {
+			if (err) throw err
 		})
 	})
 }
