@@ -4,10 +4,10 @@
 
 | Platform | SoX Version | Status     |
 |----------|-------------|------------|
-| Windows  | 14.4.2      | [![Build status](https://ci.appveyor.com/api/projects/status/dyg7v0yv1jyvmcmr/branch/master?svg=true)](https://ci.appveyor.com/project/ArtskydJ/sox-bin/branch/master) |
-| OSX      | 14.4.2      | [![Build Status](https://travis-ci.org/ArtskydJ/sox-bin.svg?branch=travisosx)](https://travis-ci.org/ArtskydJ/sox-bin) |
+| Windows  | 14.4.2      | [![Windows Build Status](https://ci.appveyor.com/api/projects/status/dyg7v0yv1jyvmcmr?svg=true)](https://ci.appveyor.com/project/ArtskydJ/sox-bin) |
+| macOS    | 14.4.2      | [![macOS Build Status](https://travis-ci.org/ArtskydJ/sox-bin.svg)](https://travis-ci.org/ArtskydJ/sox-bin) |
 | FreeBSD  | 14.4.1-5    | Untested   |
-| Linux    | 14.4.1-5    | [![Build Status](https://travis-ci.org/ArtskydJ/sox-bin.svg?branch=master)](https://travis-ci.org/ArtskydJ/sox-bin) |
+| Linux    | 14.4.1-5    | [![Linux Build Status](https://circleci.com/gh/ArtskydJ/sox-bin.svg?style=shield)](https://circleci.com/gh/ArtskydJ/sox-bin) |
 
 # example
 
