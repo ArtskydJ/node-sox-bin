@@ -9,7 +9,7 @@
 | FreeBSD  | 14.4.1-5    | Untested   |
 | Linux    | 14.4.1-5    | [![Linux Build Status](https://circleci.com/gh/ArtskydJ/sox-bin.svg?style=shield)](https://circleci.com/gh/ArtskydJ/sox-bin) |
 
-# example
+## example
 
 ```js
 var soxPath = require('sox-bin')
@@ -25,14 +25,20 @@ cp.exec(command, function (err, stdout) {
 })
 ```
 
-# api
+## api
 
 ```js
 var soxPath = require('sox-bin')
 ```
 
-`soxPath` is a string of the path to the SoX binary. On my machine it is `C:\Users\Michael\Github\sox-bin\vendor\windows\sox.exe`
+#### `soxPath`
 
-# license
+`soxPath` is a string of the path to the SoX binary.
+
+```js
+console.log(soxPath) // => "C:\Users\Joseph\Github\sox-bin\vendor\windows\sox.exe"
+```
+
+## license
 
 [VOL](http://veryopenlicense.com)
