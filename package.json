@@ -1,6 +1,6 @@
 {
   "name": "sox-bin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get SoX as a binary",
   "main": "index.js",
   "scripts": {
