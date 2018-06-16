@@ -7,6 +7,14 @@
     "install": "node install.js",
     "test": "node test.js"
   },
+  "files": [
+    "vendor/*",
+    "index.js",
+    "install.js",
+    "test.js",
+    "README.md",
+    "package.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArtskydJ/sox-bin.git"
