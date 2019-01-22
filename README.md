@@ -2,12 +2,12 @@
 
 > Get [SoX](http://sox.sourceforge.net/) as a binary
 
-| Platform | SoX Version | Status     |
-|----------|-------------|------------|
-| Windows  | 14.4.2      | [![Windows Build Status](https://ci.appveyor.com/api/projects/status/dyg7v0yv1jyvmcmr?svg=true)](https://ci.appveyor.com/project/ArtskydJ/sox-bin) |
-| macOS    | 14.4.2      | [![macOS Build Status](https://travis-ci.org/ArtskydJ/sox-bin.svg)](https://travis-ci.org/ArtskydJ/sox-bin) |
-| FreeBSD  | 14.4.1-5    | Untested   |
-| Linux    | 14.4.1-5    | [![Linux Build Status](https://circleci.com/gh/ArtskydJ/sox-bin.svg?style=shield)](https://circleci.com/gh/ArtskydJ/sox-bin) |
+| Platform | SoX Version | Status     | Notes    |
+|----------|-------------|------------|----------|
+| Windows  | 14.4.2      | [![Windows Build Status](https://ci.appveyor.com/api/projects/status/dyg7v0yv1jyvmcmr?svg=true)](https://ci.appveyor.com/project/ArtskydJ/sox-bin) |  |
+| macOS    | 14.4.2      | [![macOS Build Status](https://travis-ci.org/ArtskydJ/sox-bin.svg)](https://travis-ci.org/ArtskydJ/sox-bin) |  |
+| FreeBSD  | 14.4.1-5    | Untested   | Not working on linux. :( [Help wanted](https://github.com/ArtskydJ/sox-bin/issues/2) |
+| Linux    | 14.4.1-5    | [![Linux Build Status](https://circleci.com/gh/ArtskydJ/sox-bin.svg?style=shield)](https://circleci.com/gh/ArtskydJ/sox-bin) | Not working on linux. :( [Help wanted](https://github.com/ArtskydJ/sox-bin/issues/2) |
 
 ## example
 
