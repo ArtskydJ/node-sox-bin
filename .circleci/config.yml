@@ -9,7 +9,6 @@ jobs:
       - image: cimg/node:20.12.0
     steps:
       - checkout
-      - run: npm ci
       - run: npm test
 
   test-macos-m1:
@@ -18,7 +17,6 @@ jobs:
       resource_class: macos.m1.medium.gen1
     steps:
       - checkout
-      - run: npm ci
       - run: npm test
 
   test-windows:
@@ -28,7 +26,6 @@ jobs:
     steps:
       - checkout
       - run: choco install nodejs-lts -y
-      - run: npm ci
       - run: npm test
 
 workflows:
